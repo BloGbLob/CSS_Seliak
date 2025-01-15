@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 4</title>
+    <style>
+        body {
+            font-family: Times new roman, sans-serif;
+        }
+        table {
+            width: 95%;
+            border-collapse: collapse;
+            margin-bottom: 0px;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 3px;
+            text-align: left;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sposoby podłączania CSS do kodu strony WWW</h1>
+    <table>
+        <tr>
+            <th>Sposób</th>
+            <th>Opis</th>
+        </tr>
+        <tr>
+            <td>Zewnętrzny arkusz stylów</td>
+            <td><code>&lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;</code></td>
+        </tr>
+        <tr>
+            <td>Styl lokalny</td>
+            <td><code>&lt;div style="color: red;"&gt;Tekst&lt;/div&gt;</code></td>
+        </tr>
+        <tr>
+            <td>Wewnętrzny arkusz stylów</td>
+            <td><code>&lt;style&gt; h1 { color: blue; } &lt;/style&gt;</code></td>
+        </tr>
+        <tr>
+            <td>Alternatywny arkusz stylów</td>
+            <td><code>&lt;link rel="alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /&gt;</code></td>
+        </tr>
+        <tr>
+            <td>Import arkusza stylów</td>
+            <td><code>&lt;style&gt; @import url("style.css"); &lt;/style&gt;</code></td>
+        </tr>
+    </table>
+</body>
+          </html>
