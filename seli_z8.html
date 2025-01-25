@@ -1,7 +1,7 @@
 <html>
 <head>
 <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8">
-    <title> Opis styl lokalny, liniowy, linijkowy</title>
+    <title> Wewnętrzny arkusz stylów</title>
     <style>
         body{
             font-family: arial;
@@ -11,28 +11,35 @@
 <body>
   <ul>
     <li>
-      <h1> Na co pozwala <b>styl lokalny</b>, który element będzie formatowany z użyciem stylu 
-lokalnego?</h1>
-<br>Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi 
-strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany. 
-O tym, który to będzie element, decyduje słowo kluczowe "selektor".
+      <h1> gdzie jest wstawiany wewnętrzny arkusz stylów?</h1>
+<br>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a 
+</head>).  Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, 
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż 
+domyślne). 
        </li>
     <li>
       <h1>Składnia teoretyczna</h1>
     </li>
 <table width=95% border="1" align="center">
  <tr>
- <td width=18% align=center> <code>&lt;selektor style=&quot;cecha1: wartość1; cecha2: wartość2;&quot;&gt;...&lt;/selektor&gt;</code> 
- </td>
+ <td width=18% align=center><code>
+&lt;head&gt;
+(...) 
+&lt;style type=&quot;text/css&quot;&gt; 
+/* <![CDATA[ */ 
+selektor1 { cecha: wartość; cecha2: wartość2... } 
+selektor2 { cecha: wartość; cecha2: wartość2... } 
+(...) 
+/* ]]> */ 
+&lt;/style&gt;
+(...) 
+&lt;/head&gt;
+</code>
+
  </tr>
 </table>
-      <br>lub inaczej<br>
-<table width=95% border="1" align="center">
- <tr>
- <td width=18% align=center> <code>&lt;selektor style=&quot;nasze style&quot;&gt;treść bloku&lt;/selektor&gt;</code>
- </td>
- </tr>
-</table>
+      <br>gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego 
+arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia.<br>
     <li>
       <h1>Co może być <b>selektorem?</b></h1>
     </li>
