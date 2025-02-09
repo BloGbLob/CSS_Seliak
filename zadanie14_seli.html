@@ -1,0 +1,62 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8">
+    <title> Opis styl lokalny, liniowy, linijkowy</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+    </style>
+</head>
+<body>
+  <ul>
+    <li>
+      <h1><b>Sposoby określania kolorów</b></h1>
+<table width=95% border="1" align="center">
+ <tr>
+ <td width=18% align=center> <code>a)określanie z użyciem definicji heksadecymalnych
+DIV {color:#FFFFFF;}</code> 
+ </td>
+ </tr>
+ <tr>
+ <td width=18% align=center> <code>b)określanie z użyciem definicji RGB
+DIV {color: rgb(255,100,13);}
+liczby od 0 do 255 dla kolorów czerwony, zielony, niebieski,</code> 
+ </td>
+ </tr>
+ <tr>
+ <td width=18% align=center> <code>c)określanie z użyciem nazwy kolorów
+DIV {color:red;}</code> 
+ </td>
+ </tr>
+ <tr>
+ <td width=18% align=center> <code>d)określanie z użyciem definicji RGB oraz nasycenia kolorów
+DIV {color: rgb(10%,40%,78%);} procentowe nasycenie obrazu od 0% do 100%</code> 
+ </td>
+ </tr>
+</table>
+      <br>lub inaczej<br>
+<table width=95% border="1" align="center">
+ <tr>
+ <td width=18% align=center> <code>&lt;selektor style=&quot;nasze style&quot;&gt;treść bloku&lt;/selektor&gt;</code>
+ </td>
+ </tr>
+</table>
+    <li>
+      <h1>Co może być <b>selektorem?</b></h1>
+    </li>
+<br>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td 
+(komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami, 
+nadajemy atrybuty formatowania.
+      <li><h1>Co wipisujemy jako <b>"cechę"</b>. Jakie jest znaczenie średników</h1></li>
+<br>Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie 
+konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). 
+Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone 
+średnikami.
+      <li><h1>Co wipisujemy jako <b>"wartość"</b> (w deklaracji stylu)</h1></li>
+      <br>Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla 
+koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po 
+której stoi w deklaracji.
+  </ul>
+</body>
+</html>
