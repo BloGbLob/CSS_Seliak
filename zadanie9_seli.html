@@ -1,0 +1,65 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8">
+    <title>Opis stylu zewnętrznego</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+<li><strong>Składnia teoretyczna:</strong>
+            <div class="box">
+                <pre>
+    selector {
+        property: value;
+    }
+                </pre>
+            </div></li>
+<li><h1><li><h1>Gdzie wstawiany jest styl zewnętrzny?</h1><br>
+            Wstawiany w sekcji &lt;head&gt; za pomocą znacznika &lt;link&gt;. Może występować wielokrotnie.</li></li>
+  <li><h1>Najprostsza forma wstawiania stylu zewnętrznego:</h1>
+            <div class="box">
+                <pre>
+    &lt;link rel="stylesheet" href="style.css"&gt;
+                </pre>
+            </div></li>
+<li><p><h1>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</h1></p>
+Do jednego dokumentu HTML można dołączyć wiele arkuszy stylów. 
+Należy pamiętać, że jeśli w różnych plikach CSS są sprzeczne deklaracje, ważniejszy będzie ten załadowany później.
+</li>
+<li><p><h1>Co się dzieje w przypadku konfliktów?</h1></p>
+Jeśli ten sam element jest stylizowany w różnych arkuszach, ostatnio załadowany styl nadpisuje poprzednie.
+Można użyć !important, by nadać priorytet określonej regule.
+<br>
+</li>
+<li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+            Pliki CSS można tworzyć w prostych edytorach tekstowych jak Notatnik czy Notepad++, zapisując je z rozszerzeniem .css.</li>
+<li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1>
+            Można skorzystać z edytorów takich jak Visual Studio Code, Sublime Text czy Brackets, które ułatwiają pracę z CSS.</li>
+<li><h1>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1>
+            Pliki arkuszy styli zawsze posiadają rozszerzenie .css.</li>
+        <li><h1>Jakie są zalety zewnętrznego arkusza styli?</h1>
+            <ul>
+                <li>Oddzielenie struktury dokumentu HTML od jego wyglądu, co ułatwia zarządzanie kodem.</li>
+                <li>Możliwość wielokrotnego wykorzystania arkusza stylów w różnych dokumentach HTML, co zwiększa spójność wyglądu.</li>
+            </ul>
+        </li>
+        <li><h1>Uwagi na temat pisania w CSS</h1>
+            <ul>
+                <li>Należy unikać nadmiernego używania !important, ponieważ utrudnia to zarządzanie stylami.</li>
+                <li>Dobrą praktyką jest organizowanie kodu w czytelny sposób, np. grupując podobne style.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
