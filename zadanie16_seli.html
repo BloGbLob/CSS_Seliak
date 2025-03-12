@@ -9,34 +9,32 @@
 Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie 
 zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia 
 obszerniejszych struktur. 
-<p> <code> </code><div style="cecha: wartość; cecha2: wartość2...">...</div> </p>  </li>
-<li><h1><p>Jakie jest znaczene nawiasów klamrowych? </h1>Deklaracja jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie.  
-Każda deklaracja składa się z: 
-• przynajmniej z jednego zespołu cecha lub inaczej własność albo właściwość (ang. 
-property) 
-• wartość (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne 
-znakiem średnika (;). 
-<b>Nawiasy klamrowe obejmują zestaw deklaracji przypisanych do selektora.</b></p></li>
-  <li><h1><p> Jakie są cechy?</p></h1><br>Każda grupa elementów ma określony zespół cech CSS, 
-które można jej przypisać.  
-Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć.  
-Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do 
-elementów blokowych, ponieważ podanie jej dla elementów wyświetlanych w linii nie 
-miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak: left, 
-right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu.
-  <b>Cechy określają wygląd elementu, np. kolor, marginesy, tło, wielkość czcionki.</b></li>
-<li><p><h1>Jakie są wartości selektorów?</h1></p>
-  Przykład1: 
-p { color: red; } 
-selektorem jest znacznik p,  
-deklaracja ma postać { color: red }.  
-cechą jest color,  
-wartością red.
-<b>Wartości określają, jak dana cecha powinna się zachowywać, np. <code>color: red;</code> ustawia kolor tekstu na czerwony.</b>
-<br>
-</li>
-<li><p><h1>Kiedy stosujemy znak średnika? Kiedy nie jest konieczny?</h1></p>
-Średnik jest wymagany po każdej deklaracji w bloku styli, jednak ostatnia deklaracja może go nie zawierać.
+<p> <code> </code><div style="cecha: wartość; cecha2: wartość2...">...</div> </p> 
+<p> Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w 
+układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka. </p> 
+<p>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za 
+pomocą arkusza stylów CSS. </p>    
+<p>DIV odgrywa istotną rolę w grupowaniu wielu różnych elementów i pozycjonowaniu 
+fragmentów dokumentu.</p>
+<p>ALIGN="ustawienie" 
+Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane): 
+center - wyśrodkowanie 
+justify - wyrównanie do obu marginesów jednocześnie 
+left - wyrównanie do lewej 
+right - wyrównanie do prawej</p>
+    </li>
+<li><h1><p>Opis znacznika SPAN </h1>1. Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą zawierać 
+elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst.  
+2. Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do 
+wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf  <p>   z zasady 
+nie może zawierać elementów blokowych) tylko span. 
+3. Wewnątrz DIV można oczywiście wpisać również SPAN.</p></li>
+  <li><h1><p> Różnica między znacznikami DIV  i  SPAN.</p></h1><br>Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo 
+na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony. </li>
+<li><p><h1>Opis: elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</h1></p>
+Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe 
+(blokowe elementy, większe fragmenty struktury składające się na układ strony) 
+Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii. 
 <br>
 </li>    
     </ol>
