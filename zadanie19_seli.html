@@ -3,26 +3,32 @@
     <title>Definiowie oraz użycie znaczników DIV   oraz  SPAN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      #jeden {
-        background-color: #FFFDD0;
-        width: 100%;
-        height:40%;
-      }
-      #dwa {
-        background-color: #df33d6;
-        width: 80%;
-        height: 15%;
-      }
-      #trzy {
-        background-color: #a8de5a;
-        width: 100%;
-        height: 30%;
-      }
+        .span1{
+            color: green;
+            font-size: 25mm;
+        }
     </style>
 </head>
-  <body>
-    <div style="background-color: rgb(190, 190, 190)"> 
-      
+<body>
+    <div style="background-color: silver">
+        <span class="span1">
+        <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na żółtym tle</b>,
+        a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+        </span>
+       To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma żółte tło.
+        <p style="color: red; font-size: 40mm;">A to jest akapit (element blokowy) w ramach DIV.</p>
+       </div>
+        
+       <span class="span1">
+        <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>,
+        a to jest zwykły tekst - również wewnątrz span.
+       </span>
+        
+        <ol>
+            <li style="color: rgb(128,0,128); "><span>Punkt pierwszy</span></li>
+            <li style="color: rgb(255,192,203); "><span>Punkt drugi</span></li>
+            <li style="color: rgb(173,216,230); "><span>Punkt trzeci</span></li>
+        </ol>
  </body>
 </html>
 <!--Pavlo Seliak-->
