@@ -1,17 +1,17 @@
 #pogrubienie_seliak {
     font-size: 31px;
-    color: rgb(155, 96, 208);
+    color: #9B60D0;
     font-weight: bold;
 }
 
 #pochylona_seliak {
     font-size: 36pt;
-    color: rgb(255, 196, 108);
+    color: #FFC46C;
     font-style: oblique;
 }
 #index_gorny_seliak {
     font-size: 1.1cm;
-    color: rgb(175, 146, 28);
+    color: #AF921C;
     text-transform: uppercase;
 }
 
@@ -23,12 +23,12 @@
 
 #mono_seliak {
     font-size: 41px;
-    color: rgb(47, 226, 108);
+    color: #2FE26C;
     font-family: monospace;
 }
 
 #powiekszenie_seliak {
-    color: rgb(105, 66, 158);
+    color: #69429E;
     transform: scale(1.25);
     padding-left: 100px;
 }
