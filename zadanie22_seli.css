@@ -1,0 +1,15 @@
+p {
+    font-size: 22pt;
+}
+
+p#gruby_seliak {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#dlawszyskich_seliak {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}
