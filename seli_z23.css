@@ -7,32 +7,27 @@
 #pochylona_seliak {
     font-size: 36pt;
     color: #FFC46C;
-    font-style: oblique;
 }
 #index_gorny_seliak {
     font-size: 1.1cm;
     color: #AF921C;
-    text-transform: uppercase;
 }
 
 #index_dolny_seliak {
     font-size: 1.7cm;
     color: rgb(29%,97%,89%);
-    text-transform: lowercase;
 }
 
 #mono_seliak {
     font-size: 41px;
     color: #2FE26C;
-    font-family: monospace;
 }
 
 #powiekszenie_seliak {
     color: #69429E;
     transform: scale(1.25);
-    padding-left: 100px;
 }
-#pomniejszenie_mysiv {
+#pomniejszenie_seliak {
     color: rgb(80%,65%,23%);
     transform: scale(0.75);
 }
