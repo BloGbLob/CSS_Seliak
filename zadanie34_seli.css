@@ -22,6 +22,7 @@ color: olive;
                border-style: double;
                border: 3px solid silver;
                margin: 16px auto;
+               align-self: flex-end;
 }
 /* blok dolny */
 #blok-dolny {
@@ -32,5 +33,6 @@ color: olive;
                border-style: inset;
                border: 2px solid purple;
                margin: 0 auto;
+               align-self: flex-start;
 }
 /*Pavlo Seliak 2G2*/
