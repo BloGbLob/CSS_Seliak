@@ -18,8 +18,8 @@
                background: red;
                border-style: double;
                border: 3px solid silver;
-               margin: 16px auto;
-               align-self: flex-end;
+               margin: 300px;
+               align-self: right;
 }
 /* blok dolny */
 #blok-dolny {
