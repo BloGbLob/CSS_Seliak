@@ -16,6 +16,7 @@ color: olive;
 /* blok środkowy */
 #blok-srodkowy {
                width: 300pt;
+               align: right;
                height: 2cm;
                background: red;
                border-style: double;
@@ -26,6 +27,7 @@ color: olive;
 #blok-dolny {
                width: 350pt;
                height: 2cm;
+               align: left;
                background: red;
                border-style: inset;
                border: 2px solid purple;
