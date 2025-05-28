@@ -20,45 +20,53 @@
          color: yellow;
          }
          h2 {
-         font-size: 14px;
+         font-size: 12px;
          font-weight: bold;
          color:  olive;
+         }
+         h3 {
+         font-size: 10px;
+         color:  black;
          }
       </style>
    </head>
    <body>
       <div>
          <div id="blok-gorny">
-            <h1>Seliak</h1>
-            <p>width: 400pt;
+            <h1>Seliak
+            <p>                              width: 400pt;
                height: 4cm;
                background: red;
-               border-style: groove;
+               border-style: rich;
                border-top: 2px solid black;
                border-bottom: 2px solid yellow;
                border-left: 4px solid purple;
                border-right: 4px solid red;
-               margin: 0 auto;
+               margin: 0 auto;</h1>
             </p>
          </div>
          <div id="blok-srodkowy">
-            <h2>Pavlo</h2>
-            <p>width: 300pt;
+            <h2>Pavlo
+            <p>                              width: 300pt;
+               align: right;
                height: 2cm;
                background: red;
                border-style: double;
                border: 3px solid silver;
-               margin: 16px auto;
+               margin: 300px;
+               align-self: right;</h2>
             </p>
          </div>
          <div id="blok-dolny">
-            <h3>nr25 oraz 2G2 </h3>
-            <p>width: 350pt;
+            <h3>nr25 oraz 2G2 
+            <p>                              width: 350pt;
                height: 2cm;
+               align: left;
                background: red;
                border-style: inset;
                border: 2px solid purple;
-               margin: 0 auto;
+               margin: 15;
+               align-self: flex-start;</h3>
             </p>
          </div>
       </div>
@@ -68,15 +76,12 @@
       </textarea>
       <h1>CSS</h1>
       <textarea style="width: 750px;height: 790px;">
-h3 {
-color: olive;
-}
 /* blok górny */
 #blok-gorny {
                width: 400pt;
                height: 4cm;
                background: red;
-               border-style: groove;
+               border-style: rich;
                border-top: 2px solid black;
                border-bottom: 2px solid yellow;
                border-left: 4px solid purple;
@@ -86,20 +91,24 @@ color: olive;
 /* blok środkowy */
 #blok-srodkowy {
                width: 300pt;
+               align: right;
                height: 2cm;
                background: red;
                border-style: double;
                border: 3px solid silver;
-               margin: 16px auto;
+               margin: 300px;
+               align-self: right;
 }
 /* blok dolny */
 #blok-dolny {
                width: 350pt;
                height: 2cm;
+               align: left;
                background: red;
                border-style: inset;
                border: 2px solid purple;
-               margin: 0 auto;
+               margin: 15;
+               align-self: flex-start;
 }
 /*Pavlo Seliak 2G2*/
       </textarea>
